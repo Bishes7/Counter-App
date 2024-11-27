@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#counter {
+  font-size: 3rem;
+  margin: 20px;
+  color: black;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background: #ddd;
+}
+.increase {
+  background: #4caf50;
+}
+
+.decrease {
+  background: #f44336;
+}
+
+.reset {
+  background: #2196f3;
+}
